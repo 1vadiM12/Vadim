@@ -8,8 +8,7 @@ print(b,a)
 
 print(b[2::2],a[2::2])
 
-print(a)
-
+print(b[0:2].upper(),(a[0:2].upper()+a[3].upper()))
 
 
 
