@@ -16,7 +16,6 @@ print("-" * 50)
 
 print(type(a), (type(b)), (type(c)))
 
-
 print("-" * 50)
 
 a = ["book"]
