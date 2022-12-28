@@ -8,7 +8,6 @@ def print_max(a, b, ):
 print_max(2, 6)
 
 
-
 def min_x(c, d, v):
     if c < d and v > c:
         print(c, "minimum")
@@ -27,3 +26,18 @@ def amount(z, x):
 
 
 print(amount(2, 3))
+
+
+def my_func(q, w):
+    if q > w:
+        print(q, 'is maximum')
+    elif q == w:
+        print(q, 'is equal to', w)
+    else:
+        print(w, 'is maximum')
+
+
+if __name__ == '__main__':
+    my_func(2, 2)
+    my_func(1, 3)
+    my_func(5, 1)
