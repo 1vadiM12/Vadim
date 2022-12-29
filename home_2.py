@@ -1,4 +1,4 @@
-def print_max(a, b, ):
+def print_max(a, b):
     if a > b:
         print(a, "maximum")
     else:
@@ -15,9 +15,22 @@ def min_x(c, d, v):
         print(d, "minimum")
     else:
         print(v, "minimum")
+    return
 
 
-min_x(3, 1, 5)
+min_x(3, 2, 1)
+
+
+def my_func(q):
+    if q > 0:
+        print(q)
+    else:
+        print(-q)
+
+    return q
+
+
+my_func(-8)
 
 
 def amount(z, x):
@@ -28,16 +41,13 @@ def amount(z, x):
 print(amount(2, 3))
 
 
-def my_func(q, w):
-    if q > w:
-        print(q, 'is maximum')
-    elif q == w:
-        print(q, 'is equal to', w)
+def zero_number(number):
+    if number < 0:
+        print("minus")
+    elif number > 0:
+        print("plus")
     else:
-        print(w, 'is maximum')
+        print("zero")
 
 
-if __name__ == '__main__':
-    my_func(2, 2)
-    my_func(1, 3)
-    my_func(5, 1)
+zero_number(-2)
