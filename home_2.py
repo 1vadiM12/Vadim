@@ -3,6 +3,7 @@ def print_max(a, b):
         print(a, "maximum")
     else:
         print(b, "maximum")
+    return
 
 
 print_max(2, 6)
